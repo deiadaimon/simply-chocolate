@@ -1,0 +1,120 @@
+/* ============ BASIC STYLES ============ */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  background-color: #fafafa;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #fd9222;
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.accent {
+  color: #fd9222;
+}
+
+/* ============ HEADER STYLES ============ */
+.header {
+}
+.header-menu {
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+}
+.accent-logo {
+  font-style: italic;
+}
+.header-navigation {
+}
+.navigation-item {
+}
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+}
+.header-socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+
+/* ============ HERO STYLES ============ */
+.hero {
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+/* ============ FEATURES STYLES ============ */
+.features {
+  background-color: #1e1823;
+}
+.features-list {
+}
+.features-item {
+}
+.features-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.features-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ============ INGREDIENTS STYLES ============ */
+.ingredients {
+}
+.ingredients-text {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.ingredients-list {
+}
+.ingredients-item {
+}
+.ingredients-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* ============ HOW IT'S MADE SECTION ============ */

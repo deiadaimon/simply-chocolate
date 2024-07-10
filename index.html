@@ -10,26 +10,53 @@
       href="./favicon/favicon.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- ============ HEADER SECTION ============ -->
-    <header id="home">
-      <nav>
-        <a href="./index.html">
-          <span>SIMPLY</span> CHOCOLATE
+    <header class="header" id="home">
+      <nav class="header-menu">
+        <a class="header-logo" href="./index.html">
+          <span class="accent-logo">SIMPLY</span> CHOCOLATE
           <img src="./images/logo.svg" alt="Page logo" width="24" height="24" />
         </a>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#how-its-made">How it’s made?</a></li>
-          <li><a href="#our-products">Our products</a></li>
-          <li><a href="#top-sellers">Top sellers</a></li>
-          <li><a href="#chocolate-is-loved">Chocolate is loved</a></li>
+        <ul class="header-navigation">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#home">Home</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#how-its-made">How it’s made?</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#our-products">Our products</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#top-sellers">Top sellers</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#chocolate-is-loved"
+              >Chocolate is loved</a
+            >
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="header-socials">
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,8 +68,9 @@
               height="24"
           /></a>
         </li>
-        <li>
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,8 +87,8 @@
 
     <main>
       <!-- ============ HERO SECTION ============ -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
@@ -72,33 +100,33 @@
       </section>
 
       <!-- ============ FEATURES SECTION ============ -->
-      <section>
-        <h2 hidden>Our benefits</h2>
-        <ul>
-          <li>
+      <section class="features">
+        <h2 class="section-title" hidden>Our benefits</h2>
+        <ul class="features-list">
+          <li class="fetures-item">
             <img
               src="./images/bar.svg"
               alt="Chocolate bar icon"
               width="28"
               height="28"
             />
-            <h3>Unsurpassed taste</h3>
-            <p>
+            <h3 class="features-name">Unsurpassed taste</h3>
+            <p class="features-text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
+          <li class="fetures-item">
             <img
               src="./images/coin.svg"
               alt="Coin icon"
               width="28"
               height="28"
             />
-            <h3>Affordable price</h3>
-            <p>
+            <h3 class="features-name">Affordable price</h3>
+            <p class="features-text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -106,15 +134,15 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
+          <li class="fetures-item">
             <img
               src="./images/spoon.svg"
               alt="Spoon icon"
               width="28"
               height="28"
             />
-            <h3>Own production</h3>
-            <p>
+            <h3 class="features-name">Own production</h3>
+            <p class="features-text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -125,57 +153,62 @@
       </section>
 
       <!-- ============ INGREDIENTS SECTION ============ -->
-      <section>
-        <h2>It all adds up yo one exceptional <span>taste</span> sensation</h2>
-        <p>
+      <section class="ingredients">
+        <h2 class="section-title">
+          It all adds up to one exceptional
+          <span class="accent">taste</span> sensation
+        </h2>
+        <p class="ingredients-text">
           At Simply Chocolate, we believe that the secret to exceptional
           chocolate is in the details. From the sourcing of the finest
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
+        <ul class="ingredients-list">
+          <li class="ingredients-item">
             <img
               src="./images/ingredient-1.png"
               alt="Milk chocolate"
               width="206"
               height="160"
             />
-            <p>Milk chocolate</p>
+            <p class="ingredients-name">Milk chocolate</p>
           </li>
-          <li>
+          <li class="ingredients-item">
             <img
               src="./images/ingredient-2.png"
               alt="Bottle of milk"
               width="206"
               height="160"
             />
-            <p>Milk</p>
+            <p class="ingredients-name">Milk</p>
           </li>
-          <li>
+          <li class="ingredients-item">
             <img
               src="./images/ingredient-3.png"
               alt="Hazelnuts"
               width="206"
               height="160"
             />
-            <p>Nuts</p>
+            <p class="ingredients-name">Nuts</p>
           </li>
-          <li>
+          <li class="ingredients-item">
             <img
               src="./images/ingredient-4.png"
               alt="Semi-sweet chocolate"
               width="206"
               height="160"
             />
-            <p>Semi - sweet chocolate</p>
+            <p class="ingredients-name">Semi - sweet chocolate</p>
           </li>
         </ul>
       </section>
 
       <!-- ============ HOW IT'S MADE SECTION ============ -->
       <section id="how-its-made">
-        <h2>How it's <span>made?</span></h2>
+        <h2 class="section-title">
+          How it's <span class="accent">made?</span>
+        </h2>
         <img src="" alt="" width="600" height="400" />
         <h3>
           Try our chocolates today and discover the perfect balance of flavor
@@ -202,7 +235,7 @@
 
       <!-- ============ OUR PRODUCTS SECTION ============ -->
       <section id="our-products">
-        <h2>Our <span>products</span></h2>
+        <h2 class="section-title">Our <span class="accent">products</span></h2>
         <ul>
           <li>
             <img src="./images/product-1.jpg" alt="" width="230" height="201" />
@@ -257,7 +290,7 @@
 
       <!-- ============ TOP SELLERS SECTION ============ -->
       <section id="top-sellers">
-        <h2><span>Top</span> sellers</h2>
+        <h2 class="section-title"><span class="accent">Top</span> sellers</h2>
         <ul>
           <li>
             <img src="./images/top-1.jpg" alt="" width="368" height="464" />
@@ -279,7 +312,9 @@
 
       <!-- ============ REVIEWS SECTION ============ -->
       <section id="chocolate-is-loved">
-        <h2><span>Chocolate</span> is loved</h2>
+        <h2 class="section-title">
+          <span class="accent">Chocolate</span> is loved
+        </h2>
         <ul>
           <li>
             <img src="./images/review-1.jpg" alt="" width="80" height="80" />
@@ -339,7 +374,7 @@
 
       <!-- ============ SUBSCRIBE SECTION ============ -->
       <section>
-        <h2>Explore our new chocolate first</h2>
+        <h2 class="section-title">Explore our new chocolate first</h2>
         <p>
           From the velvety texture to the rich and complex flavor, our New
           Chocolate is a true indulgence that will leave you craving more. Made

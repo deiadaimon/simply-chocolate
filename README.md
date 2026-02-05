@@ -16,7 +16,6 @@ Beyond clean code, the site is fine-tuned for **search engine visibility** and
 with high-resolution, minified imagery.
 
 ## Tech Stack & Tools
-
 - **Core:** HTML5 (semantic markup), CSS3 (modern layouts), JavaScript
 - **Styling & Architecture:** CSS Variables for centralized theme management,
   Concentric CSS for property organization
@@ -33,6 +32,8 @@ with high-resolution, minified imagery.
   [W3C Markup Validation Service](https://www.w3.org/developers/tools/)
 
 ## Design
-
 Training web design on Figma
-[IS HERE](https://www.figma.com/design/TZXidmG4EfS6IN31XUKHKr/Simply-Chocolate--Copy-?node-id=609-1206&t=VVOoLCrQoAnfu2Xk-0).
+[IS HERE](https://www.figma.com/design/TZXidmG4EfS6IN31XUKHKr/Simply-Chocolate--Copy-?node-id=609-1205&p=f&t=WfbTKlsSFOKhctY4-0).
+
+## Origin
+This work was proposed as an **additional** training project for students to master their skills while studying HTML/CSS at [GoIT](https://goit.global/ua).
